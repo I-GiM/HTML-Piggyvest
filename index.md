@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>Dashboard - Piggyvest</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+
+        <link href="https://fonts.googleapis.com/css2?family=Karla&family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="https://res.cloudinary.com/iykeoyiih/image/upload/v1585744785/HNGi7.0/Start.NG/HTML%20Task%202/piggybank-NEW-Alone-400-min_o7yfal.webp" rel="shortcut icon">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="logo">
+                <a href="https://www.piggyvest.com"><img src="https://res.cloudinary.com/iykeoyiih/image/upload/v1585743841/HNGi7.0/Start.NG/HTML%20Task%202/piggyvest-logo_mjoaas.svg"></a>
+            </div>
+            <div class="form-wrap">
+                <div class="form-head">
+                    <h1>Create a Secure Account</h1>
+                    <p>Welcome to the future of Savings & Investments</p>
+                </div>
+                <form action="" method="POST">
+                    <div class="form-item">
+                        <label class="label">Full Name</label><br>
+                        <input class="input-item" placeholder="Full Name" type="text" name="full_name">
+                    </div>
+                    <div class="form-item">
+                        <label class="label">Email Address</label><br>
+                        <input class="input-item" placeholder="Email Address" type="email" name="email">
+                    </div>
+                    <div class="form-item">
+                        <label class="label">Phone Number</label><br>
+                        <input class="input-item" placeholder="Phone Number" type="tel" name="phone">
+                    </div>
+                    <div class="form-item">
+                        <label class="label">Password</label><br>
+                        <input class="input-item" placeholder="Password" type="password" name="password">
+                    </div>
+                    <div class="form-item">
+                        <label class="label">Referrer Phone or Promo Code (Optional)</label><br>
+                        <input class="input-item" placeholder="Referrer Phone or Code" type="text" name="referrer_code">
+                    </div>
+                    <div>
+                        <label class="label">How Did You Hear About Us? (Optional)</label><br>
+                        <select class="input-item option">
+                            <option value="Click To Select" class="a">Click To Select</option>
+                            <option value="Facebook">Facebook</option>
+                            <option value="Twitter">Twitter</option>
+                            <option value="Instagram">Instagram</option>
+                            <option value="Friend">Friend/Family/Coworker referral</option>
+                            <option value="Google search">Google search</option>
+                            <option value="Google playstore">Google playstore</option>
+                            <option value="Online Blog">Online Blog</option>
+                            <option value="Newspaper">Local Newspaper</option>
+                            <option value="Event">At an event</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <button class="btn" type="submit">CREATE ACCOUNT</button>
+                </form>
+            </div>
+            <div class="last">
+                <a href="" class="last-item">Already have an account? Log in</a>
+            </div>
+        </div>
+    </body>
+
+</html>
